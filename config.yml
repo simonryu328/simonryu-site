@@ -1,6 +1,6 @@
 languageCode: en-us
-baseURL: "//chanin.tech/"
-title: Chanin Nantasenamat
+baseURL: "//simonryu.com/"
+title: Simon Ryu
 paginate: 5
 theme: PaperMod
 
@@ -17,10 +17,12 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ChaninNantasenamat
-  description: "This is the website of Chanin Nantasenamat, Ph.D. and I create educational content on data science. Some of you may know me as the **Data Professor**."
-  keywords: [Blog, Portfolio, Data Science]
-  author: Chanin Nantasenamat
+  title: Simon Ryu
+  description: "I'm Simon Ryu, an AI enthusiast and technologist based in Vancouver, BC. 
+               With a background in Engineering Physics and Computer Science from UBC, and experience at IBM and GBatteries, 
+               I bring a blend of technical expertise and creative problem-solving to every project."
+  keywords: 
+  author: Simon Ryu
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -41,7 +43,7 @@ params:
   tocopen: false
 
   label:
-    text: "Chanin Nantasenamat"
+    text: "Simon Ryu"
     icon: "images/coding.png"
     iconHeight: 35
 
@@ -49,39 +51,28 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Welcome! \U0001F44B"
-    subtitle: "This is the website of **Chanin Nantasenamat, Ph.D.** and
-    I create educational content on data science and bioinformatics.
-    Some of you may know me as the **Data Professor**."
-    imageUrl: "images/dp.png"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: "Data Professor"
+    subtitle:  "I'm Simon Ryu, an AI enthusiast and technologist based in Vancouver, BC. 
+               With a background in Engineering Physics and Computer Science from UBC,  
+               I bring a blend of technical expertise and creative problem-solving to every project."
+    imageUrl: "images/dp.jpg"
+    imageWidth: 180
+    imageHeight: 180
+    imageTitle: "Simon Ryu"
     buttons:
-      - name: Blogs
-        url: blogs
+      - name: Resume
+        url: resume
       - name: Projects
         url: projects
 
   # home-info mode
   homeInfoParams:
     Title: "Welcome! \U0001F44B"
-    Content: "This is the website of **Chanin Nantasenamat, Ph.D.** and
-    I create educational content on data science and bioinformatics.
-    Some of you may know me as the **Data Professor**."
-
+    Content: 
   socialIcons:
-    - name: youtube
-      url: "http://youtube.com/dataprofessor"
-    - name: medium
-      url: "https://medium.com/@data-professor"
-    - name: twitter
-      url: "https://twitter.com/thedataprof"
     - name: linkedin
-      url: "https://www.linkedin.com/in/chanin-nantasenamat/"
+      url: "https://www.linkedin.com/in/simon-ryu-vancouver/"
     - name: github
-      url: "https://github.com/dataprofessor"
-    - name: buymeacoffee
-      url: "https://www.buymeacoffee.com/dataprofessor"
+      url: "https://github.com/simonryu328"
 
   analytics:
     google:
@@ -116,22 +107,22 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 4
-    - identifier: blog
-      name: Blogs
-      url: /blogs/
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 4
+    - identifier: resume
+      name: Resume
+      url: /resume/
       weight: 1
     - identifier: projects
       name: Projects
       url: /projects/
       weight: 2
-    - identifier: infographics
-      name: Infographics
-      url: /infographics/
-      weight: 3
+    # - identifier: infographics
+    #   name: Infographics
+    #   url: /infographics/
+    #   weight: 3
     #- identifier: tags
     #  name: tags
     #  url: /tags/
